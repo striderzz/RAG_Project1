@@ -4,6 +4,8 @@ Ask questions about a PDF and get answers grounded in its content. The pipeline 
 overlapping chunks, embeds them with a Hugging Face sentence-transformer, stores them in **Chroma Cloud**, retrieves the
 most relevant chunks for a question and has **Google Gemini** answer **using only that context**.
 
+**Docs:** [INFO.md](INFO.md) (overview, system design and workflow) and [INTERVIEW.md](INTERVIEW.md) (interview prep).
+
 ## How it works
 
 ```mermaid
